@@ -576,7 +576,7 @@ strong {
 }
 
 .contact-form button[type='submit']:hover {
-  background: var(--primary-color);
+  background:#0872c2;
 }
 
 .form-label {
@@ -739,6 +739,8 @@ strong {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    margin-bottom: -104px !important;
+    margin-top: -104px !important;
 }
 
 .full-width-image {
@@ -746,4 +748,94 @@ strong {
     height: 300px; /* La imagen ocupa todo el alto del contenedor */
     object-fit: cover; /* Ajusta la imagen sin distorsión */
     border-radius: 0; /* Opcional: eliminar esquinas redondeadas */
+}
+
+.service-item {
+  position: relative;
+  padding: 45px 30px;
+  background: #0a70c6;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.service-item:hover {
+  margin-top: -15px;
+  padding-bottom: 60px;
+  background: #1374c0;
+}
+
+.service-item .service-icon {
+  margin: 0 auto 20px auto;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--light);
+  background: url(../img/blob-primary.png) center center no-repeat;
+  background-size: contain;
+  transition: .5s;
+}
+
+.service-item:hover .service-icon {
+  color: var(--dark);
+  background: url(../img/blob-secondary.png) center center no-repeat;
+  background-size: contain;
+}
+
+.service-item h5,
+.service-item p {
+  transition: .5s;
+  color: white;
+}
+
+
+.service-item a.btn {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--primary);
+  background: #FFFFFF;
+  border-radius: 40px 40px 0 0;
+  transition: .5s;
+  z-index: 1;
+}
+
+.service-item a.btn:hover {
+  color: var(--dark);
+  background: var(--secondary);
+}
+
+.service-item:hover a.btn {
+  bottom: 0;
+}
+
+.a{
+color: #3d3d3d;
+}
+.b{
+  color: #0872c2;
+}
+
+.btns{
+  padding: 10px 10px ;
+  font-size: 1rem;
+  text-transform: uppercase;
+
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #0872c2;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin: 10px;
+}
+
+
+.list-unstyled{
+  padding: 10px;
 }
