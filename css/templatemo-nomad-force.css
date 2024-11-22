@@ -752,10 +752,13 @@ strong {
 
 .service-item {
   position: relative;
-  padding: 45px 30px;
+  padding: 20px 15px;
   background: #0a70c6;
   overflow: hidden;
   transition: .5s;
+  border: 2px solid black;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  height: auto;
 }
 
 .service-item:hover {
@@ -839,3 +842,39 @@ color: #3d3d3d;
 .list-unstyled{
   padding: 10px;
 }
+
+.customSwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.customSlide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff; /* Cambia este color si necesitas un fondo diferente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra suave */
+  border-radius: 8px; /* Opcional: bordes redondeados */
+  overflow: hidden; /* Asegura que el contenido no se salga del área */
+  transition: transform 0.3s ease-in-out; /* Suaviza las transformaciones */
+}
+
+.customSlide:hover {
+  transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
+
+.customSlide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Asegura que la imagen se ajuste bien */
+  border-radius: 8px; /* Coincide con el borde redondeado de las diapositivas */
+}
+.container-xxl{
+  overflow: hidden !important;
+}
+
+
