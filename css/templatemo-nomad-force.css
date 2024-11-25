@@ -156,7 +156,7 @@ a:hover {
 }
 
 .overlay {
-  background: linear-gradient(to top, #000, transparent 90%);
+  background: linear-gradient(to top, #00000061, transparent 90%);
   position: absolute;
   top: 0;
   right: 0;
@@ -759,7 +759,7 @@ strong {
 .service-item {
   position: relative;
   padding: 20px 15px;
-  background: #0a70c6;
+  background: #3d3d3d;
   overflow: hidden;
   transition: .5s;
   border: 2px solid black;
@@ -829,12 +829,12 @@ color: #3d3d3d;
 
 .btns{
   padding: 10px 10px ;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
 
-  font-weight: 500;
+  font-weight: 800;
   color: #ffffff;
-  background-color: #0872c2;
+  background-color: #141414;
   border: none;
   border-radius: 45px;
   -webkit-box-shadow: 10px 10px 19px 1px rgba(0,0,0,0.75);
@@ -844,7 +844,16 @@ color: #3d3d3d;
   cursor: pointer;
   outline: none;
   margin: 10px;
-  border: 3px solid black;
+  border: 2px solid #aaaaaa;
+  width: 300px;
+  height: 70px;
+}
+
+.btns:hover{
+  padding: 10px 10px ;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+
 }
 
 
@@ -891,4 +900,97 @@ color: #3d3d3d;
 ;
     justify-content: center;
     bottom: 100px;
+}
+.swiper-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.sac{
+  border: 1px solid black;
+  height: auto;
+}
+
+.divi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin: 20px;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  left: 8px;
+  z-index: 100;
+}
+
+.whatsapp-float img {
+  width: 48px;
+  height: 48px;
+}
+
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+/*the animation definition*/
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05)
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+}
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    -ms-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05)
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+}
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse
 }

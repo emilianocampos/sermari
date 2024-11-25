@@ -1,88 +1,113 @@
-  <div class="col-lg-4 col-md-6 wow fadeInUp" data-aos="fade-up">
-                        <div class="service-item d-flex flex-column text-center rounded">
-                            <div class="service-icon flex-shrink-0">
-                                <i class="fa-regular fa-clipboard fa-3x" style="color: white;"></i>
-                            </div>
-                            <h5 class="mb-3"> Cumplimiento Normativo:</h5>
-                            <p class="m-0">Garantizar que todos nuestros servicios cumplan con las
-leyes y regulaciones vigentes en materia de seguridad, higiene y medio ambiente,
-así como con los estándares de ingeniería aplicables, especialmente en proyectos
-mineros.</p>
-                        
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-aos="fade-up">
-                        <div class="service-item d-flex flex-column text-center rounded">
-                            <div class="service-icon flex-shrink-0">
-                                <i class="fa-solid fa-shield-halved fa-3x" style="color: white;"></i> 
-                            </div>
-                            <h5 class="mb-3">Seguridad y Salud:</h5>
-                            <p class="m-0">Implementar y mantener rigurosos protocolos de seguridad e
-                                higiene para proteger a nuestros trabajadores y a todas las personas involucradas
-                                en nuestros proyectos de construcción y minería.</p>
-                        
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-aos="fade-up">
-                        <div class="service-item d-flex flex-column text-center rounded">
-                            <div class="service-icon flex-shrink-0">
-                                <i class="fa-solid fa-star fa-3x" style="color: white;"></i>
-                            </div>
-                            <h5 class="mb-3">Calidad y Excelencia:</h5>
-                            <p class="m-0"> Ofrecer servicios de alta calidad que superen las expectativas
-                                de nuestros clientes, utilizando las mejores prácticas y tecnologías disponibles en
-                                el mercado.</p>
-                        
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item d-flex flex-column text-center rounded">
-                            <div class="service-icon flex-shrink-0">
-                                <i class="fa-solid fa-lightbulb fa-3x" style="color: white;"></i>
-                            </div>
-                            <h5 class="mb-3">Innovación y Mejora Continua:</h5>
-                            <p class="m-0">Fomentar la innovación y la mejora continua en
-                                todos nuestros procesos y servicios, buscando siempre maneras de optimizar y
-                                actualizar nuestras prácticas.</p>
-                        
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-aos="fade-up">
-                        <div class="service-item d-flex flex-column text-center rounded">
-                            <div class="service-icon flex-shrink-0">
-                                <i class="fas fa-leaf fa-3x" style="color: white;"></i>
-                            </div>
-                            <h5 class="mb-3">Sostenibilidad y Medio Ambiente:</h5>
-                            <p class="m-0">Promover prácticas de construcción y minería
-                                sostenibles que minimicen el impacto ambiental, utilizando recursos de manera
-                                responsable y protegiendo el entorno natural.</p>
-                        
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-aos="fade-up">
-                        <div class="service-item d-flex flex-column text-center rounded">
-                            <div class="service-icon flex-shrink-0">
-                                <i class="fas fa-chart-line fa-3x" style="color: white;"></i> 
-                            </div>
-                            <h5 class="mb-3">Capacitación y Desarrollo:</h5>
-                            <p class="m-0">Invertir en la capacitación y el desarrollo profesional de
-                                nuestro equipo, asegurando que nuestros empleados estén siempre al tanto de las
-                                últimas tendencias y regulaciones en seguridad, higiene, ingeniería y cuidado del
-                                medio ambiente.</p>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+      <!-- Slide 1 -->
+      <div class="swiper-slide">
+        <div class="service-item d-flex flex-column text-center rounded">
+          <div class="service-icon flex-shrink-0">
+            <i class="fa-regular fa-clipboard fa-3x" style="color: white;"></i>
+          </div>
+          <h5 class="mb-3">Cumplimiento Normativo:</h5>
+          <p class="m-0">
+            Garantizar que todos nuestros servicios cumplan con las leyes y
+            regulaciones vigentes en materia de seguridad, higiene y medio
+            ambiente, así como con los estándares de ingeniería aplicables,
+            especialmente en proyectos mineros.
+          </p>
+        </div>
+      </div>
+  
+      <!-- <img src="./images/img1.jpeg" alt="" style="width: 300px;"> -->
+      <div class="swiper-slide">
+        <div class="service-item d-flex flex-column text-center rounded">
+          <div class="service-icon flex-shrink-0">
+            <i class="fa-solid fa-shield-halved fa-3x" style="color: white; "></i>
+          </div>
+          <h5 class="mb-3">Seguridad y Salud:</h5>
+          <p class="m-0">
+            Implementar y mantener rigurosos protocolos de seguridad e higiene
+            para proteger a nuestros trabajadores y a todas las personas
+            involucradas en nuestros proyectos de construcción y minería.
+          </p>
+        </div>
+      </div>
+  
+      <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <div class="service-item d-flex flex-column text-center rounded">
+          <div class="service-icon flex-shrink-0">
+            <i class="fa-solid fa-star fa-3x" style="color: white;"></i>
+          </div>
+          <h5 class="mb-3">Calidad y Excelencia:</h5>
+          <p class="m-0">
+            Ofrecer servicios de alta calidad que superen las expectativas de
+            nuestros clientes, utilizando las mejores prácticas y tecnologías
+            disponibles en el mercado.
+          </p>
+        </div>
+      </div>
+  
+      <!-- Slide 4 -->
+      <div class="swiper-slide">
+        <div class="service-item d-flex flex-column text-center rounded">
+          <div class="service-icon flex-shrink-0">
+            <i class="fa-solid fa-lightbulb fa-3x" style="color: white;"></i>
+          </div>
+          <h5 class="mb-3">Innovación y Mejora Continua:</h5>
+          <p class="m-0">
+            Fomentar la innovación y la mejora continua en todos nuestros
+            procesos y servicios, buscando siempre maneras de optimizar y
+            actualizar nuestras prácticas.
+          </p>
+        </div>
+      </div>
+  
+      <!-- Slide 5 -->
+      <div class="swiper-slide">
+        <div class="service-item d-flex flex-column text-center rounded">
+          <div class="service-icon flex-shrink-0">
+            <i class="fas fa-leaf fa-3x" style="color: white;"></i>
+          </div>
+          <h5 class="mb-3">Sostenibilidad y Medio Ambiente:</h5>
+          <p class="m-0">
+            Promover prácticas de construcción y minería sostenibles que
+            minimicen el impacto ambiental, utilizando recursos de manera
+            responsable y protegiendo el entorno natural.
+          </p>
+        </div>
+      </div>
+  
+      <!-- Slide 6 -->
+      <div class="swiper-slide">
+        <div class="service-item d-flex flex-column text-center rounded">
+          <div class="service-icon flex-shrink-0">
+            <i class="fas fa-chart-line fa-3x" style="color: white;"></i>
+          </div>
+          <h5 class="mb-3">Capacitación y Desarrollo:</h5>
+          <p class="m-0">
+            Invertir en la capacitación y el desarrollo profesional de nuestro
+            equipo, asegurando que nuestros empleados estén siempre al tanto de
+            las últimas tendencias y regulaciones en seguridad, higiene,
+            ingeniería y cuidado del medio ambiente.
+          </p>
+        </div>
+      </div>
+  
+      <!-- Slide 7 -->
+      <div class="swiper-slide">
+        <div class="service-item d-flex flex-column text-center rounded">
+          <div class="service-icon flex-shrink-0">
+            <i class="fas fa-smile fa-3x" style="color: white;"></i>
+          </div>
+          <h5 class="mb-3">Satisfacción del Cliente:</h5>
+          <p class="m-0">
+            Mantener un enfoque centrado en el cliente, trabajando estrechamente
+            con ellos para entender sus necesidades y proporcionar soluciones
+            personalizadas que agreguen valor a sus proyectos.
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Controles de navegación -->
 
-                        </div>
-                        
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-aos="fade-up">
-                        <div class="service-item d-flex flex-column text-center rounded">
-                            <div class="service-icon flex-shrink-0">
-                                <i class="fas fa-smile fa-3x" style="color: white;"></i>
-                            </div>
-                            <h5 class="mb-3">Satisfacción del Cliente:</h5>
-                            <p class="m-0">Mantener un enfoque centrado en el cliente, trabajando
-                                estrechamente con ellos para entender sus necesidades y proporcionar soluciones
-                                personalizadas que agreguen valor a sus proyectos.</p>
-
-                        </div>
-                        
-                    </div>
+  </div>
