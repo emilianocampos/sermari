@@ -10,31 +10,31 @@ https://templatemo.com/tm-567-nomad-force
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
-  --white-color:                  #FFFFFF;
-  --primary-color:                #ffc107;
-  --section-bg-color:             #f9f9f9;
-  --dark-color:                   #000000;
-  --grey-color:                   #fcfeff;
-  --text-secondary-white-color:   rgba(255, 255, 255, 0.98);
-  --title-color:                  #565758;
-  --p-color:                      #000000;
+  --white-color: #FFFFFF;
+  --primary-color: #ffc107;
+  --section-bg-color: #f9f9f9;
+  --dark-color: #000000;
+  --grey-color: #fcfeff;
+  --text-secondary-white-color: rgba(255, 255, 255, 0.98);
+  --title-color: #565758;
+  --p-color: #000000;
 
-  --body-font-family:           'Noto Sans JP', sans-serif;
+  --body-font-family: 'Noto Sans JP', sans-serif;
 
-  --h1-font-size:               72px;
-  --h2-font-size:               42px;
-  --h3-font-size:               36px;
-  --h4-font-size:               32px;
-  --h5-font-size:               24px;
-  --h6-font-size:               22px;
-  --p-font-size:                20px;
-  --copyright-text-font-size:   14px;
-  --custom-link-font-size:      12px;
+  --h1-font-size: 72px;
+  --h2-font-size: 42px;
+  --h3-font-size: 36px;
+  --h4-font-size: 32px;
+  --h5-font-size: 24px;
+  --h6-font-size: 22px;
+  --p-font-size: 20px;
+  --copyright-text-font-size: 14px;
+  --custom-link-font-size: 12px;
 
-  --font-weight-light:          300;
-  --font-weight-normal:         400;
-  --font-weight-bold:           700;
-  --font-weight-black:          900;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
 }
 
 body,
@@ -43,9 +43,9 @@ html {
 }
 
 body {
-    background: var(--white-color);
-    font-family: var(--body-font-family);    
-    position: relative;
+  background: var(--white-color);
+  font-family: var(--body-font-family);
+  position: relative;
 }
 
 /*---------------------------------------
@@ -111,14 +111,14 @@ p {
   color: var(--text-secondary-white-color);
 }
 
-a, 
+a,
 button {
   touch-action: manipulation;
   transition: all 0.3s;
 }
 
 a {
-  color:white;
+  color: white;
   text-decoration: none;
 }
 
@@ -126,7 +126,7 @@ a:hover {
   color: rgb(255, 255, 255);
   padding-left: 20px;
   padding-right: 20px;
-  
+
 }
 
 ::selection {
@@ -142,7 +142,8 @@ a:hover {
 
 .videoWrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 56.25%;
+  /* 16:9 */
   height: 0;
   z-index: -100;
 }
@@ -176,7 +177,7 @@ a:hover {
   overflow: hidden;
   z-index: 1;
   display: inline-block;
-  transition: all .3s cubic-bezier(.645,.045,.355,1);
+  transition: all .3s cubic-bezier(.645, .045, .355, 1);
 }
 
 .custom-link::after {
@@ -188,7 +189,7 @@ a:hover {
   left: auto;
   right: 0;
   z-index: -1;
-  transition: width .6s cubic-bezier(.25,.8,.25,1) 0s;
+  transition: width .6s cubic-bezier(.25, .8, .25, 1) 0s;
   background: currentColor;
 }
 
@@ -271,7 +272,7 @@ strong {
 }
 
 .navbar-nav .nav-item.active .nav-link,
-.nav-link:focus, 
+.nav-link:focus,
 .nav-link:hover {
   color: var(--dark-color);
 }
@@ -403,7 +404,7 @@ strong {
   padding: 22px 32px 32px 32px;
 }
 
-.carousel-control-next, 
+.carousel-control-next,
 .carousel-control-prev {
   top: auto;
   bottom: 2.5rem;
@@ -414,7 +415,7 @@ strong {
   left: auto;
 }
 
-.carousel-control-next-icon, 
+.carousel-control-next-icon,
 .carousel-control-prev-icon {
   background-color: var(--dark-color);
   background-size: 50% 50%;
@@ -487,7 +488,7 @@ strong {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  transition: all .3s cubic-bezier(.645,.045,.355,1);
+  transition: all .3s cubic-bezier(.645, .045, .355, 1);
   padding-bottom: 4px;
   height: 100%;
 }
@@ -501,7 +502,7 @@ strong {
   left: auto;
   right: 0;
   z-index: -1;
-  transition: width .6s cubic-bezier(.25,.8,.25,1) 0s;
+  transition: width .6s cubic-bezier(.25, .8, .25, 1) 0s;
   background: #198754;
 }
 
@@ -541,7 +542,7 @@ strong {
 }
 
 .social-share-link,
-.social-share-link + span {
+.social-share-link+span {
   color: rgba(255, 255, 255, 0.65);
 }
 
@@ -579,7 +580,7 @@ strong {
 }
 
 .contact-form button[type='submit']:hover {
-  background:#0872c2;
+  background: #0872c2;
 }
 
 .form-label {
@@ -707,11 +708,13 @@ strong {
   .news-detail-title {
     font-size: 36px;
   }
+
   .text-secondary-white-color {
-   font-size: 1rem;
+    font-size: 1rem;
   }
-  .imgilus{
-  width: 336px;
+
+  .imgilus {
+    width: 336px;
   }
 }
 
@@ -733,27 +736,34 @@ strong {
 
 
 .mission-section {
-    position: relative;
-    padding: 50px 0; /* Espaciado */
+  position: relative;
+  padding: 50px 0;
+  /* Espaciado */
 }
 
 .sticky-image {
-    position: sticky;
-    top: 0; /* Fija la imagen al límite superior del viewport */
-    height: 100vh; /* Hace que ocupe todo el alto del viewport */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    margin-bottom: -104px !important;
-    margin-top: -104px !important;
+  position: sticky;
+  top: 0;
+  /* Fija la imagen al límite superior del viewport */
+  height: 100vh;
+  /* Hace que ocupe todo el alto del viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: -104px !important;
+  margin-top: -104px !important;
 }
 
 .full-width-image {
-    width: 100vw; /* La imagen ocupa todo el ancho de la pantalla */
-    height: 300px; /* La imagen ocupa todo el alto del contenedor */
-    object-fit: cover; /* Ajusta la imagen sin distorsión */
-    border-radius: 0; /* Opcional: eliminar esquinas redondeadas */
+  width: 100vw;
+  /* La imagen ocupa todo el ancho de la pantalla */
+  height: 300px;
+  /* La imagen ocupa todo el alto del contenedor */
+  object-fit: cover;
+  /* Ajusta la imagen sin distorsión */
+  border-radius: 0;
+  /* Opcional: eliminar esquinas redondeadas */
 }
 
 .service-item {
@@ -820,15 +830,16 @@ strong {
   bottom: 0;
 }
 
-.a{
-color: #3d3d3d;
+.a {
+  color: #3d3d3d;
 }
-.b{
+
+.b {
   color: #0872c2;
 }
 
-.btns{
-  padding: 10px 10px ;
+.btns {
+  padding: 10px 10px;
   font-size: 1.5rem;
   text-transform: uppercase;
 
@@ -837,9 +848,9 @@ color: #3d3d3d;
   background-color: #141414;
   border: none;
   border-radius: 45px;
-  -webkit-box-shadow: 10px 10px 19px 1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 19px 1px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 19px 1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 19px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 19px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 19px 1px rgba(0, 0, 0, 0.75);
   transition: all 0.3s ease 0s;
   cursor: pointer;
   outline: none;
@@ -849,15 +860,15 @@ color: #3d3d3d;
   height: 70px;
 }
 
-.btns:hover{
-  padding: 10px 10px ;
+.btns:hover {
+  padding: 10px 10px;
   font-size: 1.3rem;
   text-transform: uppercase;
 
 }
 
 
-.list-unstyled{
+.list-unstyled {
   padding: 10px;
 }
 
@@ -869,43 +880,54 @@ color: #3d3d3d;
 .customSlide {
   text-align: center;
   font-size: 18px;
-  background: #fff; /* Cambia este color si necesitas un fondo diferente */
+  background: #fff;
+  /* Cambia este color si necesitas un fondo diferente */
   display: flex;
   justify-content: center;
   align-items: center;
   height: 450px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra suave */
-  border-radius: 8px; /* Opcional: bordes redondeados */
-  overflow: hidden; /* Asegura que el contenido no se salga del área */
-  transition: transform 0.3s ease-in-out; /* Suaviza las transformaciones */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  /* Sombra suave */
+  border-radius: 8px;
+  /* Opcional: bordes redondeados */
+  overflow: hidden;
+  /* Asegura que el contenido no se salga del área */
+  transition: transform 0.3s ease-in-out;
+  /* Suaviza las transformaciones */
 }
 
 .customSlide:hover {
-  transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+  transform: scale(1.05);
+  /* Efecto de zoom al pasar el mouse */
 }
 
 .customSlide img {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Asegura que la imagen se ajuste bien */
-  border-radius: 8px; /* Coincide con el borde redondeado de las diapositivas */
+  object-fit: cover;
+  /* Asegura que la imagen se ajuste bien */
+  border-radius: 8px;
+  /* Coincide con el borde redondeado de las diapositivas */
 }
-.container-xxl{
+
+.container-xxl {
   overflow: hidden !important;
 }
-.contbtn{
+
+.contbtn {
   position: relative;
-  display: flex
-;
-    justify-content: center;
-    bottom: 100px;
+  display: flex;
+  justify-content: center;
+  bottom: 100px;
 }
+
 .swiper-container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .swiper-slide {
   display: flex;
   flex-direction: column;
@@ -918,12 +940,12 @@ color: #3d3d3d;
   padding: 20px;
 }
 
-.sac{
+.sac {
   border: 1px solid black;
   height: auto;
 }
 
-.divi{
+.divi {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -950,47 +972,75 @@ color: #3d3d3d;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+
 .animated.infinite {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
+
 .animated.hinge {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
 }
+
 /*the animation definition*/
 @-webkit-keyframes pulse {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1)
   }
+
   50% {
     -webkit-transform: scale3d(1.05, 1.05, 1.05);
     transform: scale3d(1.05, 1.05, 1.05)
   }
+
   100% {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1)
   }
 }
+
 @keyframes pulse {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
     -ms-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1)
   }
+
   50% {
     -webkit-transform: scale3d(1.05, 1.05, 1.05);
     -ms-transform: scale3d(1.05, 1.05, 1.05);
     transform: scale3d(1.05, 1.05, 1.05)
   }
+
   100% {
     -webkit-transform: scale3d(1, 1, 1);
     -ms-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1)
   }
 }
+
 .pulse {
   -webkit-animation-name: pulse;
   animation-name: pulse
+}
+
+.imgfix {
+  background-image: url('../images/img5.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 20em;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.imgfix2 {
+  background-image: url('../images/ame2.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 20em;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
