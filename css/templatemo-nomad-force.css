@@ -1035,6 +1035,7 @@ strong {
   margin-top: 60px;
   margin-bottom: 60px;
 }
+
 .imgfix2 {
   background-image: url('../images/ame2.jpeg');
   background-repeat: no-repeat;
@@ -1044,3 +1045,9 @@ strong {
   margin-top: 60px;
   margin-bottom: 60px;
 }
+
+.abouts {
+  display: flex !important;
+  justify-content: center !important;
+}
+
