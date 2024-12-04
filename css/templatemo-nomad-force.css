@@ -1029,9 +1029,9 @@ strong {
 .imgfix {
   background-image: url('../images/img5.jpeg');
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
-  height: 20em;
+  background-position: center;
+  height: 100vh; /* O ajusta la altura según sea necesario */
   margin-top: 60px;
   margin-bottom: 60px;
 }
@@ -1039,9 +1039,9 @@ strong {
 .imgfix2 {
   background-image: url('../images/ame2.jpeg');
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
-  height: 20em;
+  background-position: center;
+  height: 100vh; /* O ajusta la altura según sea necesario */
   margin-top: 60px;
   margin-bottom: 60px;
 }
